@@ -1,0 +1,29 @@
+ .sidebarContainer{
+   background-color: burlywood;
+ }
+ .headerContainer, .footer{
+   background-color: darkmagenta;
+ }
+ .center{
+   text-align: center;
+ }
+ .footertxt{
+   line-height: 30px;
+   text-align: center;
+   font-size: 25px;
+
+ }
+ .contentCenter{
+   margin-top:10px;
+ }
+ .space{
+   margin-top:20px;
+ }
+ .margin{
+   margin-left:170px;
+   margin-bottom: 250px;
+ }
+ .sample{
+   margin-top:0px;
+ }
+ 
