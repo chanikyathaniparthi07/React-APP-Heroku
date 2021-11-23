@@ -11,9 +11,6 @@ import card from './components/card';
 import FormValidation from './components/FormValidation';
 import MaterialUI_MDB from './MaterialUI_MDB'
 import MaterialUI_FV from './MaterialUI_FV';
-import Aboutus2 from './Aboutus2';
-import sample from './sample';
-import Functional_LCH from './Functional_LCH';
 import styledComponents from './styledComponents'
 import card2 from './components/card2'
 import TodoContainer from './TodoContainer';
@@ -30,14 +27,6 @@ const routing = (
             </li >
             <li className="nav-item">
               <NavLink to="/aboutus" className="nav-link">Aboutus</NavLink>
-
-            </li>
-            <li className="nav-item">
-              <NavLink to="/aboutus3" className="nav-link">Aboutus3</NavLink>
-
-            </li>
-            <li className="nav-item">
-              <NavLink to="/aboutus2" className="nav-link">Aboutus2</NavLink>
 
             </li>
 
@@ -90,8 +79,6 @@ const routing = (
             <Route path="/formvalidation" component={FormValidation} />
             <Route path="/materialUIMDB" component={MaterialUI_MDB} />
             <Route path="/materialUI_FV" component={MaterialUI_FV} />
-            <Route path="/aboutus" component={Aboutus2} />
-            <Route path="/sample" component={sample} />
             <Route path="/styledComponents" component={styledComponents} />
             <Route path="/card2" component={card2} />
             <Route path="/class-basedLCH" component={TodoContainer} />
